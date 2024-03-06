@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+}
+
+.grid{
+    margin: 15px 130px 0;
+}
+
+.menu{
+    height: 23vh;
+    width: 100%;
+    background-color: #07252d;
+    border-bottom: 3px solid darkcyan;
+}
+
+button{
+    font-size: 15px;
+    background-color: darkcyan;
+    border: 1px solid lightskyblue;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 12px;
+    height: 5vh;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.choose{
+    font-size: 15px;
+    background-color: darkcyan;
+    border: 1px solid lightskyblue;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    border-radius: 12px;
+    height: 5vh;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.choose:hover{
+    background-color: #07252d;
+}
+
+button:hover{
+    background-color: #07252d;
+
+}
+
+.head{
+    /*margin: auto;*/
+    color: darkcyan;
+}
+
+input{
+    margin-left: 8px;
+    width: 2vw;
+    height: 3vh;
+    border-style: none;
+    background-color: darkcyan;
+    border-radius: 10px;
+    border: 1px solid cyan
+}
+
+.startPointContainer{
+    display: inline;
+    margin: 10px;
+}
+
+.endPointContainer{
+    display: inline;
+    margin: 10px;
+}
+
+label{
+    color: white;
+}
+
+.t_distance{
+    font-size: 20px;
+    color: crimson;
+}
+
+.btn{
+    font-size: 30px;
+    margin-top: auto;
+    color: darkcyan;
+    background-color:#07252d;
+    border-style: none;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color:#07252d;
+    font-size: 34px;
+}
+
+.tempbtn{
+    display: block;
+    margin: auto;
+    background-color: #07252d;
+    border: none;
+}
+
+.tempbtn:hover{
+    font-size: 17px;
+}
+
+.desc{
+    font-size: 20px;
+    color: darkcyan;
+    margin-top: 14px;
+}
+
+.dbtn{
+    text-decoration:line-through;
+    cursor:not-allowed;
+}
+
+.dbtn:hover{
+    background-color: darkcyan;
+}
+
+.t_distance{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.start{
+    background-image: url(t_start.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4vh;
+    width: 2vw;
+    margin: 16px 17%;
+}
+
+.finish{
+    background-image: url(t_finish.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4vh;
+    width: 2vw;
+    margin: -46px 27%;
+}
+
+.l_walls{
+    background-image: url(building4.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4vh;
+    width: 2vw;
+    margin: 15px 64%;
+}
+
+.l_weight{
+    background-image: url(traffic2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 4vh;
+    width: 2vw;
+    margin: -45px 74%;
+}
+
+.v_node{
+    background-color: lightsteelblue;
+    height: 4vh;
+    width: 2vw;
+    margin: 11px 37%;
+}
+
+.s_path{
+    background-color: gray;
+    height: 4vh;
+    width: 2vw;
+    margin: -40px 51%;
+}
+
+.legend{
+    margin-left: 40px;
+    color: darkcyan;
+}
+
+.btn_all{
+    display: block;
+}
+
+.btn_t{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.in_tbl{
+    width: 360px;
+    background-color: rgba(255,255,255,0.3);
+    margin-left: 500px;
+}
+
+table{
+    border: 2px solid cyan;
+    border-collapse: collapse;
+}
+
+tr,th{
+    padding: 11px;
+}
+
+.temp_d{
+    width: 125px;
+    margin-left: 60%;
+    margin-top: -100px;
+}

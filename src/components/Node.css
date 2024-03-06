@@ -1,0 +1,141 @@
+.node{
+    width: 25px;
+    height: 25px;
+    outline: 2px solid gray;
+    display:  inline-block;
+}
+
+.node-finish{
+    border-radius: 12px;
+    background-image: url(finish.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.node-start{
+    border-radius: 12px;
+    background-image: url(start.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.node-visitedWeight{
+    animation-name: visitedWnodes;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes visitedWnodes{
+    0% {
+        transform: scale(0.3);
+        background-color: rgba(255, 0, 0, 0.3);
+        border-radius: 100%;
+    }
+    20% {
+        transform: scale(0.5);
+        background-color: rgba(255, 0, 0, 0.3);}
+    40% {
+        background-color: rgba(255, 0, 0, 0.3);}
+    60% {
+        transform: scale(1.4);
+        background-color: rgba(255, 0, 0, 0.3);}
+    80% {
+        transform: scale(1.2);
+        background-color: rgba(255, 0, 0, 0.3);}
+    100% {
+        transform: scale(1);
+        background-image: url(traffic2visited.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.node-visited{
+    animation-name: visitednodes;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes visitednodes {
+    0% {
+        transform: scale(0.3);
+        background-color: cyan;
+        border-radius: 100%;
+    }
+    20% {
+        transform: scale(0.5);
+        background-color: cadetblue}
+    40% {
+        background-color: blueviolet}
+    60% {
+        transform: scale(1.4);
+        background-color: slateblue}
+    80% {
+        transform: scale(1.2);
+        background-color: lightblue}
+    100% {
+        transform: scale(1);
+        background-color: lightsteelblue}
+}
+
+.node-wall{
+    /*background-color: rgb(44, 62, 80);*/
+    background-image: url(building4.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.node-weight{
+    background-image: url(traffic2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.node-shortest-path{
+    animation-name: shortestpathnode;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+}
+
+@keyframes shortestpathnode {
+    0% {
+        transform: scale(0.3);
+        background-color: steelblue;
+        border-radius: 100%;
+    }
+    20% {
+        transform: scale(0.5);
+        background-color: slategrey}
+    40% {
+        background-color: grey}
+    60% {
+        transform: scale(1.4);
+        background-color: slategray}
+    80% {
+        transform: scale(1.2);
+        background-color: darkgray}
+    100% {
+        transform: scale(1);
+        background-color: grey}
+}
